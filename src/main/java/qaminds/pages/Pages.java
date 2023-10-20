@@ -9,7 +9,4 @@ public class Pages {
         return PageFactory.initElements(driver, clazz);
     }
     public static HomePage returnHomePage(WebDriver driver){ return PagesFactory(driver, HomePage.class);}
-
-   // public static ListPr
-
 }

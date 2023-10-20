@@ -16,35 +16,36 @@ import java.lang.reflect.Method;
 @Slf4j
 @Getter
 @Setter
-
 public class BaseTest {
+
     private WebDriver driver;
     private ScreenshotHelpers screenshotHelpers;
-
 
     @BeforeMethod
     public void beforeMethod(Method method) {
         log.debug("Entramos al BeforeTest para crear la instancia del navegador");
         try {
             WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
             getDriver().manage().deleteAllCookies();
             getDriver().manage().window().maximize();
             new ScreenshotHelpers(getDriver());
-        }catch (Exception ex){
-            log.error("Algo paso al instanciar el navegador.", ex.getMessage());
+        } catch (Exception ex) {
+            log.error("Algo paso al instanciar el navegador: {}", ex.getMessage());
         }
     }
 
     @AfterMethod
-    public void afterMethod(){
+    public void afterMethod() {
         driver.quit();
     }
+
     public void navigateTo(String _url) {
         String url = String.format("http://%s", _url);
         getDriver().get(url);
         if (!getDriver().getCurrentUrl().contains(_url)) {
-            log.error("Error");
-            throw new RuntimeException("El navegador no pudo cargar" + url);
+            log.error("Se produjo un error al navegar a la pagina requerida: {}", _url);
+            throw new RuntimeException("El navegador no pudo cargar: " + url);
         }
     }
 

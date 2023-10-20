@@ -10,10 +10,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.time.Duration;
+
 @Slf4j
 public class HomePage {
-    WebDriver driver;
-    //private WaitHelper wait;
+    private WebDriver driver;
     private WebDriverWait wait;
 
     @FindBy(id = "panelLinkSelected")
@@ -28,19 +29,21 @@ public class HomePage {
     public void InputCP(String cp){
         log.debug("First click on InputCP in HomePage");
         inputCP.click();
+
         log.debug("Write CP");
         inputCP.sendKeys(cp);
         inputCP.sendKeys(Keys.RETURN);
     }
 
 
-    public void clickButtonCP(){ buttonCP.click();}
+    public void clickButtonCP(){
+        wait.until(ExpectedConditions.visibilityOf(buttonCP)).click();
+    }
 
     public boolean isVisibleMenu(){return wait.until(ExpectedConditions.visibilityOf(buttonCP)).isDisplayed();}
 
     public HomePage(WebDriver driver){
         this.driver = driver;
-        //  this.wait = wait;
-        PageFactory.initElements(driver, /*HomePage.class*/ this);
+        wait = new WebDriverWait(this.driver, Duration.ofSeconds(10));
     }
 }

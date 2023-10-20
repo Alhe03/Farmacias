@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2b56624-3078-49c8-b852-174e85677f6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/pages/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/pages/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/pages/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/pages/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qaminds/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaminds/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qaminds/test/header/HeaderCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaminds/test/header/HeaderCP.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2X0RQFTR3aj0IsRwEadMY7PUfak" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/qaminds/Farmacias/src/test/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qaminds\Farmacias\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\qaminds\Farmacias\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HeaderCP.validateCP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Farmacias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaminds.test.header.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaminds.test.header" />
+      <option name="MAIN_CLASS_NAME" value="qaminds.test.header.HeaderCP" />
+      <option name="METHOD_NAME" value="validateCP" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HeaderCP.validateCP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2b56624-3078-49c8-b852-174e85677f6b" name="Changes" comment="" />
+      <created>1697763992671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697763992671</updated>
+    </task>
+    <servers />
+  </component>
+</project>
