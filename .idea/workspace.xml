@@ -4,28 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2b56624-3078-49c8-b852-174e85677f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/pages/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/pages/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/qaminds/pages/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qaminds/pages/home/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qaminds/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaminds/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qaminds/test/header/HeaderCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qaminds/test/header/HeaderCP.java" afterDir="false" />
+    <list default="true" id="cb9e7f1c-dedd-4820-9ebc-49aef926c745" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/home/BillingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/WebDriverConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/reporter/ReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/reporter/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/test/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Farmacias/src/test/resources/spark-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/PopUpHorarioEntregaChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/home/FacturacionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/pages/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/ScreenshotHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/ScreenshotHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/WaitHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/main/java/qaminds/utilis/WaitHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/test/java/qaminds/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/test/java/qaminds/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/src/test/java/qaminds/test/header/HeaderCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/src/test/java/qaminds/test/header/HeaderCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/PopUpHorarioEntregaChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/PopUpHorarioEntregaChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/pages/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/pages/Pages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/pages/home/FacturacionPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/pages/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/pages/home/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/ScreenshotHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/ScreenshotHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/classes/qaminds/utilis/WaitHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/test-classes/qaminds/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/test-classes/qaminds/test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Farmacias/target/test-classes/qaminds/test/header/HeaderCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Farmacias/target/test-classes/qaminds/test/header/HeaderCP.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Farmacias" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Alhe03"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d7b13327-c82d-47cf-a338-9166249c824e" />
+        <option name="url" value="https://github.com/Alhe03/Farmacias.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2X0RQFTR3aj0IsRwEadMY7PUfak" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2X6OTSplABlFGhon2RrYN35tXxq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,18 +78,75 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/qaminds/Farmacias/src/test/resources"
+    "last_opened_file_path": "C:/Users/walte/Alhe/Selenium/Farmacias/Farmacias/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\qaminds\Farmacias\src\test\resources" />
+      <recent name="C:\Users\walte\Alhe\Selenium\Farmacias\Farmacias\src\test\resources" />
+      <recent name="C:\Users\walte\Alhe\Selenium\Farmacias\Farmacias\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\qaminds\Farmacias\src\main\resources" />
+      <recent name="C:\Users\walte\Alhe\Selenium\Farmacias\Farmacias\.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="qaminds.test.utilis" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HeaderCP">
+    <configuration name="HeaderCP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Farmacias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaminds.test.header.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaminds.test.header" />
+      <option name="MAIN_CLASS_NAME" value="qaminds.test.header.HeaderCP" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderCP.validateBilling" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Farmacias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaminds.test.header.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaminds.test.header" />
+      <option name="MAIN_CLASS_NAME" value="qaminds.test.header.HeaderCP" />
+      <option name="METHOD_NAME" value="validateBilling" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderCP.validateBillingCompraSucursal" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Farmacias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaminds.test.header.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaminds.test.header" />
+      <option name="MAIN_CLASS_NAME" value="qaminds.test.header.HeaderCP" />
+      <option name="METHOD_NAME" value="validateBillingCompraSucursal" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeaderCP.validateCP" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Farmacias" />
       <extension name="coverage">
@@ -67,18 +167,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HeaderCP" />
+        <item itemvalue="TestNG.HeaderCP.validateBillingCompraSucursal" />
         <item itemvalue="TestNG.HeaderCP.validateCP" />
+        <item itemvalue="TestNG.HeaderCP.validateBilling" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2b56624-3078-49c8-b852-174e85677f6b" name="Changes" comment="" />
-      <created>1697763992671</created>
+      <changelist id="cb9e7f1c-dedd-4820-9ebc-49aef926c745" name="Changes" comment="" />
+      <created>1697946070287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697763992671</updated>
+      <updated>1697946070287</updated>
     </task>
     <servers />
   </component>
